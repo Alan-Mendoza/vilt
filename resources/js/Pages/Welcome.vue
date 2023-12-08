@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 // import { Head, Link } from '@inertiajs/vue3';
 
 defineProps({
@@ -7,15 +7,31 @@ defineProps({
     // laravelVersion: String,
     // phpVersion: String,
 });
-</script>
+</script> -->
 
 <template>
-    <!-- <Head title="Welcome" /> -->
-    <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-        <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-            Welcome
+    <header class="bg-gray-800 pt-16 h-screen px-72">
+        <div class="h-2/3 flex flex-wrap content-between border-gray-600 pb-36">
+            <p class="border-b-2 border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! This is Alan. I'm a Software Engineer and I would like to work with you.</p>
         </div>
-    </div>
+    </header>
+
+    <section class="bg-gray-200 text-gray-800 px-72 py-10 h-screen">
+        <h2 class="text-6xl font-bold">Skills</h2>
+    </section>
+
+    <section class="bg-gray-600 text-gray-200 px-72 py-10 h-screen">
+        <h2 class="text-6xl font-bold">Projects</h2>
+    </section>
+
+    <footer class="flex justify-between px-72 py-10 bg-gray-800 text-gray-300 text-xl">
+        <p>&copy; Alan Mendoza. All rights reserved.</p>
+        <div class="flex justify-evenly items-center">
+            GitHub
+            Twitter
+            StackOverflow
+        </div>
+    </footer>
 </template>
 <!--
 <style>
